@@ -1,189 +1,220 @@
 * {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
+
 html {
-  font-size: 62.5%;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
+
 body {
-  height: 95vh;
-  font-weight: 400;
-  padding: 3rem;
-  background-color: lawngreen;
-  display: flex;
-  align-items: center;
+  background-color: #7cfc00;
   justify-content: center;
+  align-items: center;
+  height: 95vh;
+  padding: 3rem;
+  font-weight: 400;
+  display: flex;
 }
 
 .first-side {
   background-color: #eee;
-  width: 60%;
-  height: 80%;
   border-radius: 5rem;
-  padding: 2rem;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 60%;
+  height: 80%;
+  padding: 2rem;
+  display: flex;
 }
 
 .paragraph {
+  color: #7cfc00;
+  place-items: center;
+  padding: 2rem;
+  font-family: cursive;
   font-size: 4rem;
   font-weight: 300;
-  color: lawngreen;
-  font-family: cursive;
-  align-items: center;
-  justify-items: center;
-  padding: 2rem;
 }
+
 .score {
+  text-align: center;
+  color: #00f;
+  border-radius: 1rem;
+  align-self: center;
   width: 40%;
   height: 4rem;
   font-family: arial;
-  text-align: center;
-  border-radius: 1rem;
-  color: blue;
-  align-self: center;
 }
+
 .score:focus {
-  color: black;
+  color: #000;
 }
+
 #reload {
-  transform: translateX(-1.5rem);
   margin-top: 1rem;
+  transform: translateX(-1.5rem);
 }
+
 .btn {
-  color: lawngreen;
-  padding: 1rem 3rem;
+  color: #7cfc00;
+  cursor: pointer;
+  border: none;
   border-radius: 10px;
   margin-bottom: 1rem;
-  display: inline-block;
+  padding: 1rem 3rem;
   font-family: cursive;
   font-weight: 500;
-  transition: all 0.2s;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+  transition: all .2s;
+  display: inline-block;
+  box-shadow: 0 1rem 1rem #0000004d;
 }
+
 .btn:focus {
   outline: none;
 }
+
 .new-background {
-  background-color: white;
+  background-color: #fff;
 }
-.score-box {
+
+.score-box, .highscore-box {
+  color: #7cfc00;
   font-family: cursive;
   font-size: 3rem;
-  color: lawngreen;
 }
-.highscore-box {
-  font-family: cursive;
-  font-size: 3rem;
-  color: lawngreen;
-}
+
 .player-wins {
   font-family: fantasy;
   animation-name: winner;
   animation-duration: 1.5s;
   animation-iteration-count: 2;
 }
+
 @keyframes winner {
   30% {
-    background-color: rgba(255, 0, 0, 0.6);
+    background-color: #f009;
   }
+
   60% {
-    background-color: rgba(12, 200, 82, 0.8);
+    background-color: #0cc852cc;
   }
+
   100% {
-    background-color: white;
+    background-color: #fff;
   }
 }
+
 .hidden {
   display: none;
 }
+
 .error {
   background-color: red;
 }
+
 .vibrate {
   animation-name: shake;
-  animation-iteration-count: 2;
-  animation-duration: 0.4s;
+  animation-duration: .4s;
   animation-timing-function: ease-in;
+  animation-iteration-count: 2;
 }
+
 @keyframes shake {
   0% {
-    color: whitesmoke;
+    color: #f5f5f5;
     transform: translateX(-1rem);
   }
+
   50% {
-    color: whitesmoke;
+    color: #f5f5f5;
     transform: translateX(3.5rem);
   }
+
   100% {
-    color: whitesmoke;
+    color: #f5f5f5;
     transform: translateX(0);
   }
 }
+
 .white {
-  color: whitesmoke;
+  color: #f5f5f5;
 }
+
 .red {
   color: red;
 }
+
 .player--loser {
   animation-name: loser;
   animation-duration: 2s;
   animation-iteration-count: 3;
 }
+
 @keyframes loser {
   0% {
     background-color: red;
   }
+
   20% {
-    background-color: white;
+    background-color: #fff;
   }
+
   40% {
     background-color: red;
   }
+
   60% {
-    background-color: white;
+    background-color: #fff;
   }
+
   80% {
     background-color: red;
   }
+
   100% {
-    background-color: white;
+    background-color: #fff;
   }
 }
+
 .text-color-change {
   animation-name: rainbow;
   animation-duration: 2s;
   animation-iteration-count: 3;
 }
+
 @keyframes rainbow {
   0% {
-    color: white;
+    color: #fff;
   }
+
   20% {
     color: red;
   }
+
   40% {
-    color: white;
+    color: #fff;
   }
+
   60% {
     color: red;
   }
+
   80% {
-    color: white;
+    color: #fff;
   }
+
   100% {
     color: red;
   }
 }
+
 .box {
+  justify-content: space-between;
   width: 80%;
   display: flex;
-  justify-content: space-between;
 }
+/*# sourceMappingURL=project.3a01df49.css.map */

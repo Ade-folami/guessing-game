@@ -32,7 +32,7 @@ const displayControl = function () {
 };
 
 const tryAgain = function () {
-  big.textContent = "enter a valid number!";
+  big.textContent = "Enter a Valid Number!";
   body.classList.add("error");
   mainHead.classList.add("vibrate");
   big.classList.add("red");
@@ -54,7 +54,7 @@ const init = function () {
   initialScore = 20;
   playerScore.textContent = initialScore;
   secretNumber = Math.trunc(Math.random() * 50 + 1);
-  big.textContent = "guess my number!";
+  big.textContent = "Guess My Number!";
   body.classList.remove("error");
   guide.classList.remove("hidden");
   big.classList.remove("white");
@@ -86,7 +86,7 @@ check.addEventListener("click", function () {
     //if guess is greater than the number
     else if (score > secretNumber) {
       if (score <= 50) {
-        big.textContent = "guess is too high!";
+        big.textContent = "Guess is too high!";
         displayControl();
         initialScore--;
         playerScore.textContent = initialScore;
@@ -102,7 +102,7 @@ check.addEventListener("click", function () {
     //if guess is less than the number
     else if (score < secretNumber) {
       if (score >= 1) {
-        big.textContent = "guess is too low!";
+        big.textContent = "Guess is too low!";
         displayControl();
         initialScore--;
         playerScore.textContent = initialScore;
@@ -117,7 +117,7 @@ check.addEventListener("click", function () {
 
     //if guess is correct
     else if (score === secretNumber) {
-      big.textContent = "correct number!";
+      big.textContent = "Correct Number!";
       guide.classList.add("hidden");
       body.classList.remove("error");
       firstSide.classList.add("player-wins");
@@ -134,3 +134,7 @@ check.addEventListener("click", function () {
 });
 
 reload.addEventListener("click", init);
+
+if (module.hot) {
+  module.hot.accept();
+}
