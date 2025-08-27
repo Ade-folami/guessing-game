@@ -28,7 +28,7 @@
 78C:\Users\USER\Desktop\Projects\Guessing game\node_modules\json5\lib\require.js133699252382417419 0
 89C:\Users\USER\Desktop\Projects\Guessing game\node_modules\caniuse-lite\data\regions\SZ.js133699253118187474 0
 76C:\Users\USER\Desktop\Projects\Guessing game\node_modules\css-tree\cjs\lexer133699252758159899 1
-55C:\Users\USER\Desktop\Projects\Guessing game\.gitignore133614722513356765 0
+55C:\Users\USER\Desktop\Projects\Guessing game\.gitignore134007635743499387 0
 123C:\Users\USER\Desktop\Projects\Guessing game\node_modules\@parcel\optimizer-htmlnano\node_modules\css-select\lib\index.d.ts133699252518974059 0
 111C:\Users\USER\Desktop\Projects\Guessing game\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs133699252851978858 0
 84C:\Users\USER\Desktop\Projects\Guessing game\node_modules\mdn-data\css\syntaxes.json133699252487620159 0
@@ -41,7 +41,7 @@
 91C:\Users\USER\Desktop\Projects\Guessing game\node_modules\cosmiconfig\dist\loaders.d.ts.map133699252519583704 0
 89C:\Users\USER\Desktop\Projects\Guessing game\node_modules\@parcel\utils\test\input\config133699252741365554 1
 98C:\Users\USER\Desktop\Projects\Guessing game\node_modules\dom-serializer\lib\esm\foreignNames.d.ts133699252436800627 0
-57C:\Users\USER\Desktop\Projects\Guessing game\package.json133699253557911506 0
+57C:\Users\USER\Desktop\Projects\Guessing game\package.json134007633894708679 0
 85C:\Users\USER\Desktop\Projects\Guessing game\node_modules\@parcel\events\package.json133699252437760066 0
 94C:\Users\USER\Desktop\Projects\Guessing game\node_modules\css-tree\lib\lexer\prepare-tokens.js133699252862898905 0
 96C:\Users\USER\Desktop\Projects\Guessing game\node_modules\type-fest\source\conditional-keys.d.ts133699252395618116 0

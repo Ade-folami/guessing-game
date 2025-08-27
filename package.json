@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Guessing game built with JS",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "start": "parcel project.html",
+    "build": "parcel build project.html"
   },
   "author": "Adefolami",
   "license": "ISC",
