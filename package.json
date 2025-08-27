@@ -1,21 +1,13 @@
 {
   "name": "guessing-game",
   "version": "1.0.0",
-  "description": "A javascript guessing game",
+  "description": "Guessing game built with JS",
   "scripts": {
-    "start": "parcel project.html",
-    "build": "parcel build project.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Adefoami/guessing-game.git"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Adefolami",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Adefoami/guessing-game/issues"
-  },
-  "homepage": "https://github.com/Adefoami/guessing-game#readme",
   "devDependencies": {
     "parcel": "^2.12.0"
   }
